@@ -9,6 +9,7 @@ const links = [
   { href: "/todos", label: "待办" },
   { href: "/echo", label: "回声" },
   { href: "/dice", label: "骰子" },
+  { href: "/timer", label: "倒计时" },
 ];
 
 export default function Nav() {

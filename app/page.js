@@ -25,6 +25,12 @@ const demos = [
     title: "骰子",
     text: "掷出 1 到 6，页面留下最近五次结果。这是 1.0.0。",
   },
+  {
+    href: "/timer",
+    index: "05",
+    title: "倒计时",
+    text: "设定 10 到 300 秒，开始、暂停或归零。这是 1.1.0。",
+  },
 ];
 
 export default function HomePage() {
@@ -33,7 +39,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="panel">
           <p className="kicker">Vercel demo</p>
-          <h1>1.0.0，先从一枚骰子开始。</h1>
+          <h1>1.1.0，给骰子加上倒计时。</h1>
           <p className="lede">
             这是街角实验室。调色、记事和一次真实的接口往返，都放在同一台站点上，用来确认部署已经可以访问。
           </p>
