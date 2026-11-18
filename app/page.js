@@ -31,6 +31,12 @@ const demos = [
     title: "倒计时",
     text: "设定 10 到 300 秒，开始、暂停或归零。这是 1.1.0。",
   },
+  {
+    href: "/releases",
+    index: "06",
+    title: "版本记录",
+    text: "查看 1.0.0、1.1.0 和 1.2.0 分别加上了什么。",
+  },
 ];
 
 export default function HomePage() {
@@ -39,7 +45,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="panel">
           <p className="kicker">Vercel demo</p>
-          <h1>1.1.0，给骰子加上倒计时。</h1>
+          <h1>1.2.0，三次发布都留在这里。</h1>
           <p className="lede">
             这是街角实验室。调色、记事和一次真实的接口往返，都放在同一台站点上，用来确认部署已经可以访问。
           </p>

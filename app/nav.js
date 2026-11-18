@@ -10,6 +10,7 @@ const links = [
   { href: "/echo", label: "回声" },
   { href: "/dice", label: "骰子" },
   { href: "/timer", label: "倒计时" },
+  { href: "/releases", label: "版本" },
 ];
 
 export default function Nav() {

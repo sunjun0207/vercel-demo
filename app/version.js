@@ -1,6 +1,11 @@
-export const version = "1.1.0";
+export const version = "1.2.0";
 
 export const releases = [
+  {
+    version: "1.2.0",
+    title: "版本记录",
+    text: "把三次发布写在同一页，能对上每次新增的功能。",
+  },
   {
     version: "1.1.0",
     title: "倒计时",
