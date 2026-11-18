@@ -19,6 +19,12 @@ const demos = [
     title: "回声接口",
     text: "写一句话发给服务端，接口会原样返回，并带上收到的时间。",
   },
+  {
+    href: "/dice",
+    index: "04",
+    title: "骰子",
+    text: "掷出 1 到 6，页面留下最近五次结果。这是 1.0.0。",
+  },
 ];
 
 export default function HomePage() {
@@ -27,7 +33,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="panel">
           <p className="kicker">Vercel demo</p>
-          <h1>三个小页面，一次部署。</h1>
+          <h1>1.0.0，先从一枚骰子开始。</h1>
           <p className="lede">
             这是街角实验室。调色、记事和一次真实的接口往返，都放在同一台站点上，用来确认部署已经可以访问。
           </p>

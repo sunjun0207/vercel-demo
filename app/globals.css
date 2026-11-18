@@ -75,6 +75,19 @@ textarea {
   box-shadow: 3px 3px 0 var(--ink);
 }
 
+.version {
+  margin-right: auto;
+  border: 1.5px solid var(--ink);
+  background: var(--gold);
+  padding: 4px 8px;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.dice-face {
+  background: var(--ink);
+}
+
 .nav {
   display: flex;
   flex-wrap: wrap;

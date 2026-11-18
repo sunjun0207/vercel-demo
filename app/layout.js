@@ -2,6 +2,7 @@ import "./globals.css";
 import Link from "next/link";
 import { Fraunces, Outfit } from "next/font/google";
 import Nav from "./nav";
+import { version } from "./version";
 
 const display = Fraunces({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
               <span className="mark">街</span>
               街角实验室
             </Link>
+            <span className="version">v{version}</span>
             <Nav />
           </header>
           <main>{children}</main>

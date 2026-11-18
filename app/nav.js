@@ -8,6 +8,7 @@ const links = [
   { href: "/palette", label: "调色板" },
   { href: "/todos", label: "待办" },
   { href: "/echo", label: "回声" },
+  { href: "/dice", label: "骰子" },
 ];
 
 export default function Nav() {
